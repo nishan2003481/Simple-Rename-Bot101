@@ -25,7 +25,7 @@ async def rename_file(bot, msg):
             await sts.edit(text=f"Your caption Error unexpected keyword ●> ({e})")
             return
     else:
-        cap = f"{new_name}\n\n💽 size : {filesize}"
+        cap = f"@Anteikuupdates"
     raw_thumbnail = temp.THUMBNAIL 
     if raw_thumbnail:
         og_thumbnail = await bot.download_media(raw_thumbnail)
